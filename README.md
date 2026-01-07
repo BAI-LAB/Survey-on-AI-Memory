@@ -3,10 +3,10 @@
 
   <p align="center">
     <a href="https://arxiv.org/abs/[Your_Arxiv_ID]">
-      <img src="https://img.shields.io/badge/Arxiv-2512.13564-red.svg" alt="Arxiv">
+      <img src="https://img.shields.io/badge/Arxiv-xxxx-red.svg" alt="Arxiv">
     </a>
     <a href="https://huggingface.co/papers/[Your_HF_ID]">
-      <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-2512.13564-black.svg" alt="Hugging Face">
+      <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-xxxx-black.svg" alt="Hugging Face">
     </a>
     <a href="https://github.com/your-username/your-repo/stargazers">
       <img src="https://img.shields.io/github/stars/your-username/your-repo.svg?color=green&label=Stars" alt="Stars">
@@ -18,8 +18,7 @@
 </div>
 
 ## 📢 News
-* **[2026/01/07]** 🚀 Our survey paper repository is officially launched!
-* **[2025/12/30]** 📝 Paper submission completed. Arxiv link will be updated soon.
+* **[2026/01/07]** 🚀 Please wait for our update......
 
 ---
 
@@ -39,31 +38,11 @@ We bridge **cognitive psychology** and **computer science** to offer a unified f
 
 ## 📚 Paper List
 
-### 1. Interdisciplinary Foundations
-* *Psychological Models of Human Memory*
-* *Neuroscientific Findings in Information Storage*
-
-### 2. Single-Agent Memory Systems
-* *[Paper Title 1] - [Venue/Year]*
-* *[Paper Title 2] - [Venue/Year]*
-
-### 3. Multi-Agent Memory Systems
-* *[Paper Title 3] - [Venue/Year]*
-* *[Paper Title 4] - [Venue/Year]*
-
-### 4. Evaluation Frameworks & Benchmarks
-* *[Metric/Benchmark Name] - [Link]*
+* **[2026/01/07]** 🚀 Please wait for our update......
 
 ---
 
 ## 📝 Citation
 
-If you find our survey or this repository helpful, please consider citing our paper:
+* **[2026/01/07]** 🚀 Please wait for our update......
 
-```bibtex
-@article{wen2025aimemory,
-  title={Survey on AI Memory: Theories, Taxonomies, Evaluations, and Emerging Trends},
-  author={Wen, Xiaoshuai and [Other Authors]},
-  journal={arXiv preprint arXiv:[Your_Arxiv_ID]},
-  year={2025}
-}
