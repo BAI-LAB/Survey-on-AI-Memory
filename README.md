@@ -5,8 +5,8 @@
     <a href="https://arxiv.org/abs/[Your_Arxiv_ID]">
       <img src="https://img.shields.io/badge/Arxiv-xxxx-red.svg" alt="Arxiv">
     </a>
-    <a href="https://huggingface.co/papers/[Your_HF_ID]">
-      <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-xxxx-black.svg" alt="Hugging Face">
+    <a href="https://baijia.online/homepage/memory_survey.html">
+      <img src="https://img.shields.io/badge/%F0%9F%A7%A0%20Baijia-AI--Memory-blue.svg" alt="BaiJia">
     </a>
     <a href="https://github.com/BAI-LAB/Survey-on-AI-Memory/stargazers">
       <img src="https://img.shields.io/github/stars/BAI-LAB/Survey-on-AI-Memory.svg?color=green&label=Stars" alt="Stars">
