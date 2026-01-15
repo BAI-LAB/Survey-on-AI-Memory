@@ -18,50 +18,46 @@
 </div>
 
 ## 📢 News
-* **[2026/01/15]** 🚀 Full survey released! [cite_start]We establish a unified framework for AI memory mechanisms[cite: 9, 120].
-* **[2026/01/07]** 🚀 Please wait for our update......
+* **[2026/01/15]** 🚀 Full survey released! We establish a unified framework for AI memory mechanisms.
+* **[2026/01/07]** 🔥 Project repository initialized. Stay tuned for continuous updates.
 
 ---
 
 ## 🌟 Introduction
 
-[cite_start]Memory is a cornerstone of cognitive capability in AI systems, empowering them with dynamic adaptation, complex reasoning, and experiential learning[cite: 5]. [cite_start]With the advent of LLM-driven agents, memory architectures have evolved from simple context windows to sophisticated systems that integrate parametric and non-parametric storage, fuse multimodal information, and facilitate knowledge sharing within multi-agent ecosystems[cite: 6].
-
-[cite_start]This survey presents a comprehensive overview of AI memory mechanisms anchored in a unified theoretical framework, bridging cognitive theories with engineering benchmarks[cite: 9, 12].
+Memory is a cornerstone of cognitive capability in AI systems. This survey presents a comprehensive overview of AI memory mechanisms anchored in a unified theoretical framework, bridging **cognitive psychology** (e.g., Atkinson-Shiffrin, Working Memory, CLS) and **AI architectures**.
 
 ### 🛠 The 4W Memory Taxonomy
-[cite_start]We propose the structured **4W Memory Taxonomy** to enable consistent analysis across diverse architectures[cite: 10, 250]:
-- [cite_start]**When (Lifecycle Dimension):** Focuses on temporal span, ranging from **Transient** (input buffers), **Session** (working memory), to **Persistent** (cross-session storage)[cite: 252, 253, 319].
-- [cite_start]**What (Type Dimension):** Categorizes the nature of captured information, including **Procedural** (skills), **Declarative** (facts), **Metacognitive** (reflections), and **Social/Personalized** (user models)[cite: 255, 256, 363].
-- [cite_start]**How (Storage Dimension):** Explores technical representation, including **Implicit** (Parametric/Latent within models) and **Explicit** (External Raw, Vector, or Graph-based storage)[cite: 257, 258, 401].
-- [cite_start]**Which (Modality Dimension):** Classifies memory by information formats, distinguishing between **Single-modal** (text-only) and **Multimodal** (integrated image, audio, and video)[cite: 259, 261, 320].
+We establish the **4W Memory Taxonomy** to systematically analyze AI memory:
+- **When (Lifecycle):** From **Transient** (buffers) to **Session** (working memory) and **Persistent** (long-term).
+- **What (Type):** **Procedural** (skills), **Declarative** (facts), **Metacognitive** (reflections), and **Social/Personalized**.
+- **How (Storage):** **Implicit** (Parametric/Latent) vs. **Explicit** (Raw, Vector, or Graph-based).
+- **Which (Modality):** **Unimodal** (text) and **Multimodal** (vision, audio, sensors).
 
 ---
 
-## 🏗 Theoretical Foundations & Frameworks
+## 🏗 Key Frameworks
 
-### Interdisciplinary Foundations
-[cite_start]We derive three essential architectural patterns for AI memory from cognitive psychology and neuroscience[cite: 131, 133, 155]:
-* [cite_start]**Index and Content Separation:** Inspired by the Complementary Learning Systems (CLS) theory to enable efficient retrieval beyond context window limits[cite: 158, 193].
-* [cite_start]**Multiphase Consolidation:** Transforming recent episodic traces into summaries and reusable skills for structured long-term memory[cite: 197, 198].
-* [cite_start]**Structured Coordination:** Organizing active workspaces into specialized buffers overseen by a central controller[cite: 201, 202].
+### 1. Interdisciplinary Design Patterns
+* **Index and Content Separation:** Decoupling retrieval pointers from actual content.
+* **Multiphase Consolidation:** Transforming episodic traces into long-term knowledge.
+* **Structured Coordination:** Managing dynamic information flow through a central controller.
 
-### Memory in Multi-Agent Systems (MAS)
-[cite_start]Shared memory serves as the substrate for collective intelligence in MAS[cite: 673]:
-* [cite_start]**Communication:** Ranging from **Explicit** (natural language/structured schemas) to **Implicit** (latent thoughts/compressed states)[cite: 597, 635, 663].
-* [cite_start]**Sharing Mechanisms:** Optimized at **Task-Level** (experience accumulation across cycles) and **Step-Level** (dynamic context allocation within workflows)[cite: 598, 674].
+### 2. Multi-Agent Memory (MAS)
+* **Communication:** Ranging from **Explicit** (natural language) to **Implicit** (latent states).
+* **Sharing Mechanisms:** Optimized at **Task-Level** (experience accumulation) and **Step-Level** (real-time coordination).
 
 ---
 
-## 📊 Evaluation Metrics
-[cite_start]We establish a comprehensive taxonomy for standardized assessment of AI memory[cite: 704, 712]:
+## 📊 Evaluation Taxonomy
+We categorize memory evaluation into four essential dimensions:
 
-| Dimension | Representative Metrics | Description |
-| :--- | :--- | :--- |
-| **Retrieval Capability** | Recall@k, NDCG@k, Accuracy | [cite_start]Measures the quality and ranking of fetched memory segments[cite: 718, 721]. |
-| **Updating Capability** | Update Accuracy, Hallucination Rate | [cite_start]Evaluates the ability to modify states and manage forgetting/unlearning[cite: 741, 751]. |
-| **Advanced Cognition** | Success Rate, Kendall's r | [cite_start]Assesses generalization to unseen tasks and temporal perception[cite: 773, 776]. |
-| **System Efficiency** | Latency, Token Overhead, Storage Cost | [cite_start]Examines engineering viability and operational overhead[cite: 797, 804]. |
+| Dimension | Key Focus |
+| :--- | :--- |
+| **Retrieval** | Accuracy, Recall@k, and Ranking quality. |
+| **Updating** | Handling conflicting info and consolidation. |
+| **Cognition** | Generalization and Temporal perception. |
+| **Efficiency** | Latency, Token overhead, and Scalability. |
 
 ---
 
