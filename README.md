@@ -19,7 +19,7 @@
 
 ## 📢 News
 * **[2026/01/15]** 🚀 Full survey released! We establish a unified framework for AI memory mechanisms.
-* **[2026/01/07]** 🔥 Project repository initialized. Stay tuned for continuous updates.
+* **[2026/01/07]** 🚀 Please wait for our update......
 
 ---
 
