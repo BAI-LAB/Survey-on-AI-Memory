@@ -8,67 +8,65 @@
     <a href="https://huggingface.co/papers/xxxx.xxxxx">
       <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-black.svg" alt="Hugging Face">
     </a>
-    <a href="https://github.com/your-username/your-repo/stargazers">
-      <img src="https://img.shields.io/github/stars/your-username/your-repo.svg?color=green&label=Stars" alt="Stars">
+    <a href="https://github.com/BAI-LAB/Survey-on-AI-Memory/stargazers">
+      <img src="https://img.shields.io/github/stars/BAI-LAB/Survey-on-AI-Memory.svg?color=green&label=Stars" alt="Stars">
     </a>
-    <a href="https://github.com/your-username/your-repo/blob/main/LICENSE">
+    <a href="https://github.com/BAI-LAB/Survey-on-AI-Memory/blob/main/LICENSE">
       <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
     </a>
   </p>
 </div>
 
-## 📢 News
-* **[2026/01/15]** 🚀 Full survey paper released, covering AI memory from cognitive psychology to LLM agents.
-* **[2026/01/07]** 🔥 Repository initialized. We will continuously update the latest paper list and benchmarks.
+## 🌟 Abstract
+Memory is a cornerstone of cognitive capability in AI systems. This survey provides a comprehensive overview of AI memory mechanisms anchored in a unified theoretical framework. We bridge **Cognitive Psychology** (e.g., Atkinson-Shiffrin, Working Memory, CLS) and **AI Architectures** to propose a structured **4W Memory Taxonomy**. Our work systematically analyzes memory processes in both **Single-Agent** and **Multi-Agent** systems while establishing a multidimensional evaluation framework.
 
 ---
 
-## 🌟 Introduction
+## 🛠 The 4W Memory Taxonomy
+The paper categorizes AI memory research through four critical dimensions:
 
-Memory is a cornerstone of cognitive capability in AI systems, empowering them with dynamic adaptation, complex reasoning, and experiential learning. With the rise of LLM-driven agents, memory architectures have evolved from simple context windows to sophisticated systems that integrate parametric and non-parametric storage, fuse multimodal information, and facilitate knowledge sharing within multi-agent ecosystems.
-
-This survey bridges the gap between **cognitive psychology** and **computational mechanisms**, providing a comprehensive overview and a unified theoretical framework for both Single-Agent and Multi-Agent memory systems.
-
-### 🛠 The 4W Memory Taxonomy
-We propose a structured taxonomy to analyze AI memory across four dimensions:
-* **When (Lifecycle):** How long does memory persist? (Instantaneous, Session-based, or Persistent).
-* **What (Information Type):** What is being stored? (Declarative facts, Procedural skills, Meta-cognitive reflections).
-* **How (Storage Implementation):** How is it represented? (Implicit parametric weights vs. Explicit non-parametric external stores).
-* **Which (Modality):** What formats are supported? (Unimodal text to heterogeneous Multimodal fusion of vision, audio, and sensors).
-
----
-
-## 🏗 Survey Framework
-
-Our research translates cognitive models (e.g., Atkinson-Shiffrin, Working Memory, CLS) into modern AI design patterns:
-
-1.  **Theoretical Foundations:** Mapping psychological memory stages to AI components like KV-Cache, RAG, and Weights.
-2.  **Single-Agent Memory:** Exploring hierarchical architectures, OS-like memory management (e.g., MemGPT), and self-evolving mechanisms.
-3.  **Multi-Agent Memory:** Analyzing communication-based memory sharing, collective learning, and coordinated reasoning.
-4.  **Evaluation Ecosystem:** A multidimensional framework assessing Retrieval, Dynamic Updating, Higher-order Cognition, and System Efficiency.
+* **When (Lifecycle):** * *Instantaneous:* Input buffers and transient states.
+    * *Session:* Temporary storage within a specific context.
+    * *Persistent:* Long-term storage across different sessions.
+* **What (Information Type):** * *Procedural:* "How-to" skills and execution logic.
+    * *Declarative:* "What-is" facts and semantic knowledge.
+    * *Metacognitive:* Self-reflections and reasoning logs.
+    * *Social & Personalized:* User profiles and interpersonal dynamics.
+* **How (Storage Implementation):** * *Implicit:* Encoded in parametric weights or latent states.
+    * *Explicit:* Stored as raw text, vector embeddings, or structured graphs.
+* **Which (Modality):** * *Unimodal:* Text-centric memory.
+    * *Multimodal:* Fusion of visual, audio, and sensor data.
 
 ---
 
-## 📊 Representative Benchmarks
+## 🏗 Key Frameworks & Mechanisms
 
-| Category | Key Benchmarks | Core Tasks |
-| :--- | :--- | :--- |
-| **Static Memory** | LongBench, RULER, HotpotQA | Long-context retrieval, Multi-hop reasoning |
-| **Dynamic Memory** | MemoryBench, HaluMem, DialSim | Information updating, Hallucination detection |
-| **Personalization** | PERSONAMEM, MemBench | User profiling, Preference tracking |
-| **Multimodal** | Video-MME, EgoLife, MMNeedle | Spatio-temporal retrieval, Video understanding |
+### 1. Interdisciplinary Design Patterns
+* **Index and Content Separation:** Decoupling retrieval pointers from actual memory content.
+* **Multiphase Consolidation:** Simulating the process of transforming short-term experiences into long-term knowledge.
+* **Structured Coordination:** Managing dynamic information flow similar to the Working Memory Model.
+
+### 2. Memory Processes
+* **Basic Functions:** Analysis of *Storage*, *Retrieval*, and *Updating* (including Incremental, Corrective, and Consolidation).
+* **Advanced Capabilities:** Focus on **Self-Evolution** (learning from history) and **Association** (cross-modal and temporal indexing).
+
+### 3. Multi-Agent Memory (MAS)
+* **Communication Mechanism:** Explicit (language-based) vs. Implicit (latent-based).
+* **Sharing Paradigm:** Differentiating between **Task-Level** sharing (common knowledge) and **Step-Level** sharing (real-time coordination).
 
 ---
 
-## 🚀 Future Directions
+## 📊 Systematic Evaluation Taxonomy
+The survey identifies four key dimensions for benchmarking AI memory:
 
-* **Brain-Inspired Modeling:** Solving the stability-plasticity dilemma with sleep-like consolidation mechanisms.
-* **Experience-Driven Evolution:** Transforming unstructured logs into structured priors for goal-aware autonomous growth.
-* **Collective Intelligence:** Building secure, shared memory spaces with dynamic access control for agent societies.
+| Dimension | Metrics & Focus |
+| :--- | :--- |
+| **Retrieval Capability** | Accuracy, Recall@k, NDCG, Ranking quality. |
+| **Updating Capability** | Corrective updates, handling conflicting information. |
+| **Advanced Cognition** | Generalization, Temporal perception, Personalization. |
+| **System Efficiency** | Latency, Token consumption, Scalability. |
 
 ---
 
 ## 📝 Citation
-
-If you find our survey or this repository helpful, please cite our paper
-
+If you find our research helpful, please cite
