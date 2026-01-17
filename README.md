@@ -23,15 +23,17 @@
 ---
 
 ## 📢 News
+* **[2026/01/15]** 🚀 Project Website: https://baijia.online/homepage/memory_survey.html
 * **[2026/01/15]** 🚀 Full survey released! We establish a unified framework for AI memory mechanisms.
 * **[2026/01/07]** 🚀 Project repository initialized.
+
 
 ---
 
 ## 🌟 Introduction
 
 This survey presents a comprehensive overview of AI memory
-mechanisms anchored in a unified theoretical framework. We propose a structured "4W Memory Taxonomy" to enable consistent
+mechanisms anchored in a unified theoretical framework. We propose a structured "**4W Memory Taxonomy**" to enable consistent
 analysis across diverse architectures. Building on this foundation, we systematically review memory systems in both single- and
 multi-agent contexts, examining their architectures, functions, applications, and evaluation methodologies. By synthesizing cognitive
 theories with engineering benchmarks, this work provides a coherent roadmap for advancing the theoretical understanding and
