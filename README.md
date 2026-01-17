@@ -17,7 +17,6 @@
   </p>
 
   <img src="images/Fig1.png" width="100%" alt="Survey Roadmap Overview">
-  <p><em>Fig. 1. The Evolutionary Landscape of AI Memory: A Content Roadmap of the Survey.</em></p>
 </div>
 
 ---
@@ -47,7 +46,6 @@ To clarify the scope of AI memory, we distinguish between three interrelated lay
 
 <div align="center">
   <img src="images/Fig2.png" width="80%" alt="AI Memory Boundaries">
-  <p><em>Fig. 2. An AI Boundary to Clarify the Interrelationships Among LLM Memory, Agent Memory, and AI Memory.</em></p>
 </div>
 
 ---
@@ -63,7 +61,6 @@ We establish a structured **4W Memory Taxonomy** to enable consistent analysis a
 
 <div align="center">
   <img src="images/Fig3.png" width="100%" alt="4W Memory Taxonomy">
-  <p><em>Fig. 3. 4W Memory Taxonomy for Systematic Classification of AI Memory Systems.</em></p>
 </div>
 
 ---
@@ -77,24 +74,19 @@ Effective collaboration within MAS hinges on communication mediated by memory sh
 
 <div align="center">
   <img src="images/Fig4.png" width="100%" alt="MAS Memory Mechanisms">
-  <p><em>Fig. 4. Framework Categorizing Memory Mechanisms in MAS into Communication Mechanisms and Memory Sharing Mechanisms.</em></p>
 </div>
 
 ---
 
-## 📊 Evaluation Taxonomy
+## 📊 Evaluation Benchmark
 
 We categorize memory evaluation into four essential dimensions to provide a structured assessment of agent memory:
 
-| Dimension | Description | Representative Metrics |
-| :--- | :--- | :--- |
-| **Retrieval Capability** | Evaluates the ability to fetch relevant memory segments. | Recall@k, Precision@k, NDCG@k  |
-| **Updating Capability** | Measures the ability to correctly modify, write, and forget information. | Update Accuracy, Hallucination Rate, F1-score  |
-| **Cognitive Capability** | Assesses higher-order reasoning such as generalization and temporal perception. | Success Rate, Kendall's $r$, Accuracy  |
-| **System Efficiency** | Evaluates engineering viability, including operational overhead. | Latency, Token Overhead, Storage Cost  |
+<img width="865" height="781" alt="image" src="https://github.com/user-attachments/assets/5717d699-f24a-47c3-b5cf-ea3ea9321ac3" />
+<img width="865" height="937" alt="image" src="https://github.com/user-attachments/assets/b53c2444-4a09-4910-b6cd-33c0b4e43d49" />
 
----
 
 ## 📝 Citation
 
 If you find this survey or the established taxonomy helpful in your research, please cite our work
+coming soon
