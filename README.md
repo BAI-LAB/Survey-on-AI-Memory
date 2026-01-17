@@ -30,7 +30,7 @@
 ---
 
 ## 🌟 Introduction
-<img width="865" height="244" alt="image" src="https://github.com/user-attachments/assets/9b58a16e-e89b-4a8f-b76d-7e05081281b5" />
+<img width="780" height="248" alt="image" src="https://github.com/user-attachments/assets/9b58a16e-e89b-4a8f-b76d-7e05081281b5" />
 
 This survey presents a comprehensive overview of AI memory
 mechanisms anchored in a unified theoretical framework. We propose a structured "**4W Memory Taxonomy**" to enable consistent
