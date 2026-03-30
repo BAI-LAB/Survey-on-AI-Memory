@@ -90,7 +90,6 @@ We categorize memory evaluation into four essential dimensions to provide a stru
 ## 📝 Citation
 
 If you find this survey or the established taxonomy helpful in your research, please cite our work
-coming soon
 
 ```bibtex
 @article{baisurvey,
