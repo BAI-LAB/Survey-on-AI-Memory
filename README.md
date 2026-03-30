@@ -91,3 +91,8 @@ We categorize memory evaluation into four essential dimensions to provide a stru
 
 If you find this survey or the established taxonomy helpful in your research, please cite our work
 coming soon
+
+@article{baisurvey,
+  title={Survey on AI Memory: Theories, Taxonomies, Evaluations, and Emerging Trends},
+  author={BAI, TING and FAN, JIAYANG and WEN, XIAOSHUAI and KANG, JIAZHENG and LAN, HENGZHI and ZHAO, RUOCHEN and WU, PINGZHENG and ZHANG, ZEPENG and ZHONG, YUTIAN and LI, GEZI and others}
+}
